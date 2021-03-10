@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content="ie-edge">
+    <title>Madera</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class = "container">
+        <header>
+            <img id="header-img" src="https://lh3.googleusercontent.com/96xC-_xIGhQUoLChuDmZrCPY9i9zHa3vA6NQBW8OTHqe4Q6jpIelvr_xvRs_DxOG7L18qp-sDvSul9TQl-bKGs4R-JSusZkiV6FgGm20tHYlKgykIaK7OMWVgcpRoK-OVqUnFvbpW4b6iq8KUbly8y_xciaQDjHrYyuuL-r2wZwlzAzZxK-hz8-ZrpiAPxUSth49fLqcd3Zh91K_HglvUWhVfB3zIG9KfOVgU4vJ_PJQDi7XBNCGZDFt7UmeYdeVZdE8Enwvm8DUXZNUGbtco24YiuIGAo7hloxdume-iEZW6Hg929St1K009JG3g8M3KBw10L0XEygUU13GwRrOnE8oUGgHtQuDl4nwlx62LJJUVoMucEemys2W_9EmEptNkKqbBvrpwnO9h2wTNI9AZr155V4AluOj0IOhKKj_SPlyUc91dxubuTKIFrbuK_u-TxLrK0JYGwjeSyUGyTEVWmO0L5FfmvcFEDQrCz3aRADPCl20gwI0Xq5xhjVgJIc9yXK0WgTcZgwERBqCmMjAxA0KZ2Lal-0zXcYG21xXTmrh_hw7vCOXeJg92akDU6NnI7dodrDiUY_b-5ye1lU42h453-R0FDX8SrOGtpIjRBoOyqnxeK1c0V3fHsbeCG3eSz_AfiyKWgo2ukSKRHp6rLmfETkzHop9G8DfOefUBZfZ38Fd-caK91QNlBQ6bQ=w551-h202-no?authuser=0" alt="sprinkles-logo">
+            <nav>
+                <ul class="nav-list">
+                  <li><a href="index.html" id="home">HOME</a></li>
+                  <li><a href="#reservation" id="navreservation">MAKE A RESERVATION</a></li>
+                  <li><a href="mailto:mahikapatil25@gmail.com?Subject=Reservation" id="contact">CONTACT</a></li>
+                </ul>
+           </nav>
+        </header>
+          
+    
+    
+    
+        <main>
+            <section class="background">
+                <h1>let's eat.</h1>
+            </section>
+        </main>
+
+        <section class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12090.470159428245!2d-73.9856644!3d40.7484405!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1594072818957!5m2!1sen!2sus" width="1024" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+        <section id ="reservation" class = "reservation">
+            <h3>Book A Table</h3>
+            <form id="form">
+                <input type = "date" id="date" placeholder="date" required/>
+                <input type = "time" id="time" required/>
+                <input type = "number" id="party" min="1" max="40" placeholder="Party" required/><br>
+                <input type="text" id="name" placeholder="Name" required></input><br>
+                <input type = "email" id="email" placeholder="Email" required/><br>
+                <button type ="submit" onclick="document.getElementById('status').style.display='block'" >Book</button><br>
+                <textarea rows="1" id="status"></textarea>
+            </form>
+        </section>
+
+        
+        <footer>
+            <p class="address">Main St, Blackabbey, Adare, Co. Limerick - Copyright 2017©</p>
+    
+        </footer>
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+}
+
+main{
+  text-align: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.background{
+  background-color: white;
+  width: 300px;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: 90px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#D2B48C;
+  text-decoration: underline;
+}
+
+h3{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.reservation{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#form{
+  border: solid;
+  border-color:#C4A484;
+  margin: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#date, #time, #party, #name, #email, #status{
+  border-radius: 5px;
+  border-width: thin;
+  border-color: gray;
+  display: inline-block;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 35px;
+
+}
+
+#date{
+  width: 150px;
+}
+
+#time{
+  width: 100px;
+}
+
+#party{
+  width: 55px;
+}
+
+#email{
+  margin-bottom: 10px;
+}
+
+#name, #email, #status{
+  width: 300px;
+}
+
+#status{
+  display:none;
+  border: none;
+  margin: auto;
+  padding-top: 20px;
+}
+
+button{
+  font-size: 15px;
+  border-radius: 2px;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border-width: thin;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+button:hover{
+  background-color:#C4A484;
+  color: white;
+  border-color: white;
+}
+
+
+.maps{
+  padding-top: 50px;
+  padding-left: 125px;
+}
+
+nav{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+body{
+  margin: 0px;
+  padding:0px;
+  background-image: url(https://pearlsofeast.com/wp-content/uploads/2019/08/soup-1-1080x764.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+    
+a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+#header-img{
+  width: 200px;
+  height: auto;
+  padding-left: 30px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
